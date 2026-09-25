@@ -1,0 +1,11 @@
+# Secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Downloaded raw API data (re-created by the pipeline)
+data/*.json
